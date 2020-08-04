@@ -5,31 +5,65 @@
         <title>Estutura Básica HTML</title>
     </head>
     <body>
-        <h1>Cidade de Belém do Pará</h1>
-        <p>
-            Belém é um município brasileiro e capital do estado do Pará, situado na região Norte do país, 
-            fundado em 12 de janeiro de 1616 pelos portugueses, às margens da baía Guajará. 
-        </p>
-        <img src="resource/belem-img.jpg" width="220" height="300" alt="Belém">
-        <h2>características</h2>
-        <h3>História</h3>
-        <!-- A tag mark representa um trecho de destaque em um texto -->
-        <p>
-            É uma cidade histórica e portuária, localizada na <mark>Amazônia Oriental</mark>, ao extremo nordeste da maior 
-            floresta tropical do mundo, sendo a capital mais chuvosa do Brasil devido a seu clima equatorial, 
-            influenciada diretamente pela Amazônia.     
-        </p>
-        <!-- A tag strong informa um grau de importância maior no trecho destacado -->
-        <p>
-            Em seus 400 anos de história, <strong> Belém vivenciou momentos de plenitude</strong>, entre os quais o período áureo 
-            da borracha, no início do século XX, quando recebeu inúmeras famílias europeias, que influenciaram 
-            a arquitetura local, sendo conhecida na época como Paris n'América.
-        </p>
-        <h3>Área</h3>
-        <!-- a Tag <em> é utilizada para dar enfase em algum trecho. Não confundir enfase com importância dada comm Strong -->
-        <p>
-            Belém possui uma área de <em>1 059,458 km²</em> e uma altitude de dez metros ao nível médio do mar, estando 
-            a cerca de 2 140 km da capital federal, Brasília.
-        </p>
+        <!-- Cabeçalho do blog -->
+        <header>
+             <p>Meu blog</p>
+        </header>
+
+        <article id="artigo">
+
+            <!-- Cabeçalho do article -->
+            <header id="cabecalho-artigo">
+                <h1 style="display: inline;">Cidade de Belém do Pará</h1>
+                
+                <a href="https://www.google.com/search?q=Bel%C3%A9m" target="_blank">
+                    <img id="img-sobre" src="resource/icon-info.png" width="50">
+                </a>
+            </header>
+
+            <p>
+                Belém é um município brasileiro e capital do estado do Pará, situado na região Norte do país, 
+                fundado em 12 de janeiro de 1616 pelos portugueses, às margens da baía Guajará. 
+            </p>
+            <!-- Imagem local -->
+            <img src="resource/belem-img.jpg" width="220" height="300" alt="Belem">
+    
+            <!-- Imagem de link externo -->
+            <img 
+            src="https://www.trt8.jus.br/sites/portal/files/images/noticia/4882_trt8_realiza_acordo_que_beneficiara_toda_a_saude_da_populacao_de_belem.jpg" 
+            width="400" alt="Baia-belem">
+    
+            <h2>características</h2>
+            <h3>História</h3>
+            <!-- A tag mark representa um trecho de destaque em um texto -->
+            <p>
+                É uma cidade histórica e portuária, localizada na <mark>Amazônia Oriental</mark>, ao extremo nordeste da maior 
+                floresta tropical do mundo, sendo a capital mais chuvosa do Brasil devido a seu clima equatorial, 
+                influenciada diretamente pela Amazônia.     
+            </p>
+            <!-- A tag strong informa um grau de importância maior no trecho destacado -->
+            <p>
+                Em seus 400 anos de história, <strong> Belém vivenciou momentos de plenitude</strong>, entre os quais o período áureo 
+                da borracha, no início do século XX, quando recebeu inúmeras famílias europeias, que influenciaram 
+                a arquitetura local, sendo conhecida na época como Paris n'América.
+            </p>
+            <h3>Área</h3>
+            <!-- a Tag <em> é utilizada para dar enfase em algum trecho. Não confundir enfase com importância dada comm Strong -->
+            <p>
+                Belém possui uma área de <em>1 059,458 km²</em> e uma altitude de dez metros ao nível médio do mar, estando 
+                a cerca de 2 140 km da capital federal, Brasília.
+            </p>
+        </article>
+
+        <aside>
+            <p>Esse é um menu lateral. Anuncie aqui</p>
+        </aside>
+
+        <footer>
+            <p>
+                Para sugerir novos conteúdos entre em contato<br>
+                <a href="contato.html">Clique aqui</a>
+            </p>
+        </footer>
     </body>
 </html>
