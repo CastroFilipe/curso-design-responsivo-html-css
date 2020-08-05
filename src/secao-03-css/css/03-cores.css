@@ -1,0 +1,60 @@
+
+body {
+    background-color: tan;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+div {
+    margin: 0;
+    padding: 1rem;
+}
+
+h1 {
+    margin: 0;
+}
+
+/* Formas de utilizar cores */
+/* Valores fixos para cores */
+.caixa1 {
+    background-color: dodgerblue;
+    color: whitesmoke;
+}
+
+/* Cores geradas a partir de função RGB */
+.caixa2 {
+    background-color: rgb(130, 189, 1);
+    color: rgb(21, 8, 78);
+}
+
+.caixa2::first-letter {
+    color: rgb(243, 82, 32);
+}
+
+/* Cores geradas a partir do código em hexadecimal */
+.caixa3 {
+    background-color: #fbbd00;
+    color: #4086f4;
+}
+
+/* Cores geradas a partir da função hsl*/
+.caixa3::first-letter {
+    color: #31aa52;
+}
+
+.caixa4 {
+    background-color: hsl(220, 46%, 48%);
+    color: hsl(0, 0%, 100%)
+}
+
+/* Cores geradas a partir da função rgba, que permite transparência */
+.caixa5 {
+    background-color: rgba(17, 24, 34, 0.9);
+    color: rgba(248, 154, 24, 0.8);
+}
+/* Cores geradas a partir da função hsla, que permite transparência */
+.caixa6 {
+    background-color: hsla(0, 86%, 47%, 0.8);
+    color: hsla(0, 0%, 100%, 1.0);
+}

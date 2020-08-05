@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Seletores em CSS</title>
+        <link rel="stylesheet" href="css/02-seletores.css">
+
+    </head>
+
+    <body>
+        <header class="cabecalho-blog">
+            <p>Blog de tecnologia</p>
+            <p>Bem vindo ao nosso blog</p>
+        </header>
+        <nav id="menu">
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#artigos">Artigos</a>
+        </nav>
+        <section id="area-artigos">
+            <article id="artigo-primario" class="artigo">
+                <h2>CSS</h2>
+                <p class="primeiro-paragrafo">
+                    <mark class="destaque">Cascading Style Sheets</mark> (CSS) é um mecanismo para adicionar 
+                    estilo (cores, fontes, espaçamento, etc.) a um documento html.
+                </p>
+                <p>
+                    O código CSS pode ser <mark>aplicado diretamente nas tags</mark>(aplicação de estilo inline), 
+                    <mark>aplicado através da tag "style"</mark> no documento html ou ser 
+                    <mark>aplicado a partir de arquivo CSS externo</mark>. Nesse caso o documento html deverá 
+                    ter uma referência(link) para o arquivo CSS externo.
+                </p>
+            </article>
+            <article id="artigo-secundario" class="artigo">
+                <h2>Java</h2>
+                <p class="primeiro-paragrafo">
+                    <mark class="destaque">Máquina virtual Java</mark> - MVJ (do inglês Java Virtual Machine - JVM) 
+                    é um programa que carrega e executa os aplicativos Java, convertendo os bytecodes em código 
+                    executável de máquina. A JVM é responsável pelo gerenciamento dos aplicativos, à medida que 
+                    são executados.
+                </p>
+                <p>
+                    Graças à máquina virtual Java, <strong>os programas escritos em Java podem funcionar 
+                    em qualquer plataforma de hardware e software que possua uma versão da JVM</strong>, 
+                    tornando assim essas aplicações independentes da plataforma onde funcionam.
+                </p>
+            </article>
+        </section>
+    </body>
+</html>
