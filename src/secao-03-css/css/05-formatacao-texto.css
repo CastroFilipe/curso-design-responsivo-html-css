@@ -1,0 +1,59 @@
+body {
+    background-image: linear-gradient(to right, rgb(161, 240, 161), teal );
+    margin: 0;
+    padding: 10px;
+}
+
+/* estilização de fontes */
+p {
+    /* Define a cor da fonte */
+    color: #222;
+
+    /* Define a família de fontes utilizadas nos paragrafos */
+    font-family: Arial, Helvetica, sans-serif;
+
+    /* O tamanho da fonte */
+    font-size: 1.4rem;
+}
+
+.primeiro {
+    /* Valores possíveis normal(valor padrão), italic e oblique */
+    font-style: italic;
+}
+
+.segundo {
+    /* Trasnsformará as letras minúsculas em maiúsculas de menor altura que as
+    maiúsculas originas. Os valores possíveis para essa propriedade são: 
+    normal(valor padrão) e smallcaps*/
+    font-variant: small-caps;
+}
+
+.terceiro {
+    /* Representa o peso da fonte. Os pesos mais comuns e utilizados são o 400(normal) e
+    o 700(bold). Para uma melhor descrição ver o arquivo 04-usando-fontes.html*/
+    font-weight: bold;
+
+    /* valores possíveis: underline, overline, line-through ou blink*/
+    text-decoration: line-through;
+}
+
+div.pai {
+    border: 1px solid green;
+    height: 200px;
+    width: 900px;
+    margin: 0;
+}
+
+.quarto {
+    /* Indica o posicionamento do texto em relação ao elemento pai */
+    text-align: center;
+}
+
+.quinto {
+    /* Indica o posicionamento do texto em relação ao elemento pai */
+    text-align: right;
+}
+
+.sexto {
+    text-shadow: 2px 2px red;
+}

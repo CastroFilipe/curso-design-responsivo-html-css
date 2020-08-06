@@ -1,0 +1,116 @@
+/* Font-face permite carregar fontes personalizadas */
+@font-face {
+    font-family: 'naruto-kun';
+    src: url('../fontes/njnaruto.ttf') format('truetype');;
+}
+
+body {
+    margin: 0px;
+    font-size: 1.2rem;
+    background-color: lavenderblush;
+    padding: 5px;
+
+    /* Define a família de fontes que serão utilizadas em qualquer texto dentro de body */
+    font-family: Arial, Helvetica, sans-serif;
+    
+    /* Fontes com nomes compostos devem ser declaradas dentro de aspas simples*/
+    font-family: 'Comic Sans MS';
+    
+    /* fontes do "google fonts", o link de importação foi colocado na página html */
+    font-family:  'Orbitron','Montserrat', sans-serif;
+    
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 5px;
+}
+
+p {
+    margin: 5px;
+    margin-bottom: 15px;
+}
+
+.label {
+    font-size: 1.4rem;
+    margin: 0;
+}
+
+.primeiro {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.segundo {
+    font-family: 'Orbitron', sans-serif;
+}
+
+.fonte-pesos {
+    font-family: 'Poppins', sans-serif;
+    background-color: navajowhite;
+}
+
+.fonte-sem-pesos {
+    font-family: 'Orbitron';
+    background-color: lightgray;
+}
+
+.peso100 {
+    font-weight: 100;
+}
+
+.peso200 {
+    font-weight: 200;
+}
+
+.peso300 {
+    font-weight: 300;
+}
+
+.peso400 {
+    font-weight: 400;
+}
+
+.peso500 {
+    font-weight: 500;
+}
+
+.peso600 {
+    font-weight: 600;
+}
+
+.peso700 {
+    font-weight: 700;
+}
+
+.peso800 {
+    font-weight: 800;
+}
+
+.peso900 {
+    font-weight: 900;
+}
+
+.fonte-arial {
+    font-family: Arial;
+    background-color: lightblue;
+}
+
+.fonte-times-new-roman {
+    font-family: 'Times New Roman';
+    background-color: lightsalmon;
+}
+
+.fonte-courier-new {
+    font-family: 'Courier New';
+    background-color: lightyellow;
+}
+
+.fonte-helvetica {
+    font-family: Helvetica;
+    background-color: lightgoldenrodyellow;
+}
+
+.ninja {
+    font-family: 'naruto-kun';
+    background-color: orange;
+    padding: 10px;
+}
