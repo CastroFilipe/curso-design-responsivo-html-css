@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>Pseudo elementos</title>
+        <link rel="stylesheet" href="./css/02-pseudo-elementos.css">
+    </head>
+    <body>
+        <article>
+            <h1 class="titulo1">O que são pseudoelementos?</h1>
+            <p>
+                Um pseudoelemento CSS é usado para estilizar partes especificadas de um elemento. 
+                Por exemplo, ele pode ser usado para estilizar a primeira letra ou linha de um 
+                elemento ou inserir conteúdo antes ou depois do conteúdo desse elemento.</p>
+            
+            <p>
+                Todos os pseudos elementos:<br>
+                <table>
+                    <tr>
+                        <th>Pseudo elemento</th>
+                        <th>Descrição</th>
+                    </tr>
+                    <tr>
+                        <td>::first-letter</td>
+                        <td>Seleciona a primeira letra do elemento especificado</td>
+                    </tr>
+                    <tr>
+                        <td>::first-line</td>
+                        <td>Seleciona a primeira linha de um texto com múltiplas linhas</td>
+                    </tr>
+                    <tr>
+                        <td>::before</td>
+                        <td>Insere um conteúdo antes do conteúdo do elemento selecionado</td>
+                    </tr>
+                    <tr>
+                        <td>::after</td>
+                        <td>Insere um conteúdo após o conteúdo do elemento selecionado</td>
+                    </tr>
+                    <tr>
+                        <td>::selection</td>
+                        <td>corresponde à parte de um elemento que é selecionada por um usuário.</td>
+                    </tr>
+                </table>
+                <br>
+                <strong>Observação:</strong> Diferentemente dos pseudo-elementos, pseudo-classes podem ser utilizadas 
+                para estilizar um elemento baseado em seu estado.
+            </p>
+        </article>
+        <article>
+            <h1 class="titulo2">GIT</h1>
+            <p>
+                Git pronuncia-se é um sistema de controle de versões distribuído, usado principalmente 
+                no desenvolvimento de software, mas pode ser usado para registrar o histórico de 
+                edições de qualquer tipo de arquivo. 
+            </p>
+            <p>
+                O Git foi inicialmente projetado e desenvolvido por Linus Torvalds para o 
+                desenvolvimento do kernel Linux, mas foi adotado por muitos outros projetos.
+            </p>
+        </article>
+        <article>
+            <h1 class="titulo3">Pseudo elemento ::selection</h1>
+            <span>Selecione parte do texto abaixo, ou pressione ctr+a para selecionar todo o texto</span>
+            <p class="selecao">
+                O ::selectionpseudoelemento corresponde à parte de um elemento que é selecionada por um usuário.
+                As seguintes propriedades CSS pode ser aplicada a ::selection: color, background, cursor, e outline.
+            </p>
+        </article>
+    </body>
+</html>

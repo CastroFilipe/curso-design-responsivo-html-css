@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.75rem;
+    line-height: 1.6;
+    background-color: lightgray;
+}
+
+.artigos {
+    margin: 0 20px;
+    text-align: justify;
+}
+
+article {
+    border-bottom: 2px solid rgba(122, 122, 122, 0.5);
+}
+
+article h1 {
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: normal;
+}
+
+img {
+    float: left;
+    margin-right: 20px;
+}
+
+/* ===== Segundo artigo =====*/
+
+.segundo-artigo {
+    background-color: lightgreen;
+}
+
+.primeiro, .segundo {
+    background-color: lightseagreen;
+    width: 48%;
+}
+
+.primeiro {
+    float: left;
+}
+
+.segundo {
+    float: right;
+}
+
+footer {
+    background-color: #444;
+    margin-bottom: 50px;
+}
+
+.clearfix {
+    clear: both;
+}

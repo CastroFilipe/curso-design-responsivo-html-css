@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    background-color: lightseagreen;
+    padding: 25px;
+    width: 80%;
+}
+
+p {
+    margin-left: 30px;
+}
+
+/* O pseudo elemento ::first-letter fará a seleção da primeira letra de qualquer paragrafo filho de um article */
+article > p::first-letter {
+    color: red;
+    font-size: 2.0rem;
+    font-weight: 700; /*Bold*/
+}
+
+/* Irá selecionar a primeira letra de cada h1, inclusive considerando os elementos que 
+foram adicionados através dos pseudo elementos ::before e ::after*/
+h1::first-letter {
+    color: #fff;
+}
+
+/* irá adicionar o conteúdo ANTES do conteúdo do elemento marcado com a classe .titulo1*/
+.titulo1::before {
+    content: "Tema de hoje: ";
+    font-weight: 400;
+}
+
+/* irá adiconar um icone antes do elemento marcado com a classe .titulo2 */
+.titulo2::before {
+    content: url("../imagens/cometa.png");
+}
+
+/* irá adicionar o conteúdo APÓS o elemento marcado com a classe .titulo2 */
+.titulo2::after {
+    content: " (sistema de versionamento)";
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+/* Aplica o estilo a primeira linha de cada paragráfo p */
+p::first-line {
+    font-variant: small-caps;
+}
+
+.selecao::selection {
+    background-color: #333;
+    color: rgb(252, 16, 16);
+}
+
+
+
+
+
+
+/* formatação para a tabela */
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 90%;
+}
+
+td, th {
+    border: 1px solid lightgray;
+    text-align: left;
+    padding: 8px;
+}
