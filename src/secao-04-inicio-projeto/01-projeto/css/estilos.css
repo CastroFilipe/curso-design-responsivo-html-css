@@ -19,11 +19,12 @@ header {
     height: 60px;
 }
 
-.container {
+.container, .caixa-planos {
     /* border: 1px solid red; */
     width: 1200px;
     margin: 0 auto;
     padding: 2px 15px;
+    /* background-color: red; */
 }
 
 header img {
@@ -41,6 +42,7 @@ header img {
     text-align: center;
     line-height: 1.6;
     float: left;
+    margin-right: 20px;
 }
 
 .plano h2 {
@@ -59,4 +61,23 @@ header img {
 
 .preco {
     font-size: 1.75rem;
+}
+
+.caixa-planos::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.planos-footer .botao {
+    background-color: green;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+
+.botao:hover, .botao:focus {
+    background-color: rgb(2, 71, 2);
 }
