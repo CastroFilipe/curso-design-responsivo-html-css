@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>Unidades de medidas</title>
+        <link rel="stylesheet" href="./css/01-unidades-medidas.css">
+    </head>
+    <body>
+        <article class="container">
+            <h1>Unidades de medidas</h1>
+            <p>
+                Unidades absolutas mais utilizadas: <strong>px</strong>
+                <br>
+                Unidades relativas mais utilizadas: <strong>em, rem, %, vw, vh, vmin, vmax</strong>
+            </p>
+            <p>As unidades absolutas definem um tamanho fixo para o elemento, 
+                já as unidades relativas calculam as medidas de um elemento baseado nas medidas de 
+                algum outro elemento(As medidas calculadas são relativas a esse outro elemento).
+            </p>
+            <h2>Unidade em</h2>
+            <p>
+                A unidade <strong>em</strong> é relativo ao tamanho da fonte do elemento pai, no caso de propriedades
+                de fonte como o font-size, e também ao tamanho da fonte do próprio elemento, no 
+                caso de propriedades como width.
+            </p>
+            <div class="div-em">
+                Eu sou o elemento pai com font-size de 16px e width 700px
+                <p class="filho-em">
+                    O tamanho de minha fonte é calculada a partir do elemento pai.
+                    <br>
+                    Eu tenho font-size: 1.2em; ou seja 1.2*16px = 19,2px.
+                    <br><br>
+                    EU também tenho width: 30em. Nesse caso a minha largura é 
+                    calculada a partir do tamanho da minha fonte(19,2).
+                    <br>
+                    Largura= 30*19,2px = 576px
+                </p>
+            </div>
+
+            <h2>unidade rem</h2>
+            <p>
+                A unidade <strong>rem</strong> é relativo ao tamanho da fonte do elemento 
+                raiz(html) da página
+            </p>
+            <div class="div-rem">
+                Eu sou o elemento pai com font-size de 10px e width 700px
+                <p class="filho-rem">
+                    O tamanho de minha fonte é calculada a partir do elemento raiz html.
+                    Por padrão o elemento html possui 16px
+                    <br>
+                    logo font-size: 1.5rem = 1.5 * 16px = 24px
+                    <br><br>
+                    Eu tenho largura de 480px que é calculada também a partir do tamanho 
+                    fonte do elemento raiz:
+                    <br>
+                    width: 30rem; equivale a 30 * 16px = 480px
+                </p>
+            </div>
+
+            <h2>unidade vw</h2>
+            <p>
+                A unidade <strong>vw</strong> é relativo a 1% do tamanho da LARGURA 
+                da viewport(tamanho da tela).
+            </p>
+            <div class="div-vw">
+                Eu sou uma div com width: 40vw;
+                <br>
+                Em outras palavras, 40% da largura da tela.
+                <br>
+                Minha largura irá diminuir ou aumentar se a viewport também fizer isso.
+                Eu sempre mantenho minha largura de 40vw em relação a largura da viewport.
+            </div>
+            <br>
+            <div class="div-vw-fonte">
+                Eu sou uma div com font-size: 2vw; 
+                <br>
+                Minha fonte tem 2vw em relação a largura da viewport, ou seja 2%
+                <br>
+                O tamanho de minha fonte irá diminuir ou aumentar se a largura da viewport 
+                for modificada.
+            </div>
+
+            <h2>unidade vh</h2>
+            <p>
+                A unidade <strong>vh</strong> é relativo a 1% do tamanho da ALTURA 
+                da viewport(tamanho da tela).
+            </p>
+            <div class="div-vh">
+                Eu sou uma div com width: 40vh;
+                <br>
+                Em outras palavras, 40% da ALTURA da tela.
+                <br>
+                Se diminuir a altura da viewport eu diminuirei minha largura.
+            </div>
+            <br>
+            <div class="div-confusa">
+                Eu sou uma div confusa com width: 40vh e height: 40vw;
+                <br><br>
+                Diminuindo a altura da viewport eu irei diminuir minha largura
+                <br>
+                Diminuindo a largura da viewport eu irei diminuir a minha altura
+            </div>
+        </article>
+
+    </body>
+</html>
