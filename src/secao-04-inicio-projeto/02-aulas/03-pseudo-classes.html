@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>Pseudo classes</title>
+        <link rel="stylesheet" href="./css/03-pseudo-classes.css">
+    </head>
+    <body>
+        <article>
+            <div class="introducao">
+                <h1>Pseudo classes</h1>
+                <p>
+                    Uma pseudo-classe CSS é uma palavra-chave adicionada a seletores que especifica 
+                    um estado especial do elemento selecionado. Por exemplo, :hover pode ser usado 
+                    para alterar a cor de um botão quando o usuário passar o cursor sobre ele.
+                </p>
+                <p>
+                    Alguns exemplos de uso:
+                    
+                    <ul>
+                        <li>Estilize um elemento quando um usuário passa o mouse sobre ele</li>
+                        <li>Estilo de links visitados e não visitados de maneira diferente</li>
+                        <li>Estilize um elemento quando ele receber foco</li>
+                    </ul>
+                </p>
+                <p>
+                    Observação: Diferentemente dos pseudo-elementos, pseudo-classes podem ser utilizadas 
+                    para estilizar um elemento baseado em seu estado.
+                </p>
+                <p>
+                    Observação: Diferentemente das pseudo-classes, pseudo-elementos podem ser usados 
+                    para estilizar uma parte específica de um elemento.
+                </p>
+            </div>
+
+            <div>
+                <h2>:hover</h2>
+                <p>
+                    Selecione e estilize um elemento ao passar o mouse sobre ele:
+                </p>
+                <div class="container-hover">
+                    Passe o mouse aqui
+                </div>
+            </div>
+
+            <div>
+                <h2>:link  |  :visited  |  :active  |  :hover</h2>
+                <p>
+                    Podem ser utilizados em conjunto para exibir os links de diferentes 
+                    maneiras. Um link visitado, não visitado, ativo ou no estado hover 
+                    (quando você passa o mouse sobre ele) pode assumir aspectos 
+                    (cores, fundos, etc...) diferentes através de CSS.
+                    <br>
+                    <table>
+                        <tr>
+                            <th>pseudo-classe</th>
+                            <th>Descrição</th>
+                        </tr>
+                        <tr>
+                            <td>:link</td>
+                            <td>define o estilo do link no estado inicial</td>
+                        </tr>
+                        <tr>
+                            <td>:visited</td>
+                            <td>estilização de um link que já foi visitado</td>
+                        </tr>
+                        <tr>
+                            <td>:active</td>
+                            <td>estilização de um link no momento do click</td>
+                        </tr>
+                        <tr>
+                            <td>:hover</td>
+                            <td>estilização do link ao passar o mouse em cima</td>
+                        </tr>
+                    </table>
+                </p>
+                <div class="container-links">
+                    <a href="">link</a>
+                </div>
+            </div>
+
+            <div>
+                <h2>Algumas pseudo classes aplicadas a elementos do tipo input</h2>
+                <p>
+                    <br>
+                    <table>
+                        <tr>
+                            <th>pseudo-classe</th>
+                            <th>Descrição</th>
+                        </tr>
+                        <tr>
+                            <td>:checked</td>
+                            <td>Seleciona os inputs, como um checkbox, que foram marcados</td>
+                        </tr>
+                        <tr>
+                            <td>:focus</td>
+                            <td>Aplicará o estilo quando o campo de entrada for selecionado e receber o foco</td>
+                        </tr>
+                    </table>
+                </p>
+                <div class="container-links">
+                    <input type="checkbox" name="inputcheck" id="checked"> :checked
+                    <input type="checkbox" name="inputcheck" id="checked"> :checked
+                    <br>
+                    Radio button com :checked
+                    <input type="radio" name="grupo1" id="sim">
+                    <input type="radio" name="grupo1" id="nao">
+                    <br>
+                    <input type="text"> :focus
+                </div>
+            </div>
+
+            <p>
+                Demais pseudo-classes 
+                <a class="reallink" target="_blank" href="https://www.w3schools.com/css/css_pseudo_classes.asp">clique aqui</a></p>
+        </article>
+    </body>
+</html>
