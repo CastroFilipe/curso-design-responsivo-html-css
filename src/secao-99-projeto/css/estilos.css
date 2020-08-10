@@ -1,97 +1,77 @@
 * {
     box-sizing: border-box;
-}
-
-body {
+  }
+  
+  body {
     margin: 0;
+  
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.2rem;
-}
-
-ul, li {
-    text-decoration: none;
-    list-style: none;
-    padding: 0px;
-}
-
-header {
-    border-bottom: 1px solid #ccc;
+    font-size: 14px;
+  }
+  
+  header {
     height: 60px;
-}
-
-header img {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  header img {
     margin-top: 12px;
-}
-
-.container, .caixa-planos {
-    /* border: 1px solid red; */
-    width: 100%;
-    margin: 0 auto;
-    padding: 2px 15px;
-}
-
-.container-planos {
+  }
+  
+  #planos {
     padding: 80px 0;
-}
-
-.plano {
-    border: 1px solid #95a4a5;
-    /* padding: 10px; */
-    text-align: center;
-    line-height: 1.6;
-}
-
-.plano h2 {
-    margin: 0;
-    background-color: #95a4a5;
-    color: #fff;
-    line-height: 2.5;
-    font-weight: normal;
-    font-size: 1.75rem;
-}
-
-.plano > div {
-    /* border: 1px solid red; */
-    padding: 30px 5px 5px 5px; 
-}
-
-.preco {
-    font-size: 1.75rem;
-}
-
-.caixa-planos::after {
+  }
+  
+  #planos::after {
     content: "";
     display: block;
     clear: both;
-}
-
-.planos-footer .botao {
-    background-color: green;
-    display: inline-block;
+  }
+  
+  article {
+    padding: 10px;
+    border: 1px solid #95a4a5;
+  }
+  
+  article > h2 {
+    background-color: #95a4a5;
     color: #fff;
+    text-align: center;
+    line-height: 2.5;
+    margin: -10px;
+    margin-bottom: 0;
+    font-weight: normal;
+    font-size: 28px;
+  }
+  
+  article > div {
+    text-align: center;
+    font-size: 28px;
+    margin: 20px 0;
+  }
+  
+  article > ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  article > ul > li {
+    text-align: center;
+  }
+  
+  article > footer {
+    text-align: center;
+  }
+  
+  .botao {
+    display: inline-block;
+    background-color: #127d00;
+    color: #fff;
+    padding: 12px 16px;
     text-decoration: none;
-    padding: 10px 20px;
-    margin-bottom: 10px;
-}
-
-.botao:hover, .botao:focus {
-    background-color: rgb(2, 71, 2);
-}
-
-@media (min-width: 600px) {
-    .plano {
-        background-color: pink;
-    }
-}
-
-@media (min-width: 800px) {
-    .plano {
-        width: 30%;
-        float: left;
-        margin-right: 5%;
-    }
-
-    .ultimo {
-        margin-right: 0;
-    }
-}
+  }
+  
+  .botao:hover, .botao:focus {
+    background-color: #0e6400;
+  }
