@@ -19,16 +19,15 @@ header {
     height: 60px;
 }
 
-.container, .caixa-planos {
-    /* border: 1px solid red; */
-    width: 1200px;
-    margin: 0 auto;
-    padding: 2px 15px;
-    /* background-color: red; */
-}
-
 header img {
     margin-top: 12px;
+}
+
+.container, .caixa-planos {
+    /* border: 1px solid red; */
+    width: 100%;
+    margin: 0 auto;
+    padding: 2px 15px;
 }
 
 .container-planos {
@@ -37,12 +36,9 @@ header img {
 
 .plano {
     border: 1px solid #95a4a5;
-    width: 370px;
     /* padding: 10px; */
     text-align: center;
     line-height: 1.6;
-    float: left;
-    margin-right: 20px;
 }
 
 .plano h2 {
@@ -80,4 +76,22 @@ header img {
 
 .botao:hover, .botao:focus {
     background-color: rgb(2, 71, 2);
+}
+
+@media (min-width: 600px) {
+    .plano {
+        background-color: pink;
+    }
+}
+
+@media (min-width: 800px) {
+    .plano {
+        width: 30%;
+        float: left;
+        margin-right: 5%;
+    }
+
+    .ultimo {
+        margin-right: 0;
+    }
 }
