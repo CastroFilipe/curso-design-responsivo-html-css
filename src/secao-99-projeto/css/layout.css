@@ -1,19 +1,12 @@
-header {
+.layout-cabecalho {
     height: 60px;
     border-bottom: 1px solid #ccc;
 }
   
-header img {
+.layout-cabecalho img {
     margin-top: 12px;
 }
 
-#planos {
+.layout-planos {
     padding: 80px 0;
-}
-  
-/* Para limpar o float e impedir que os elementos se organizem de forma não desejada na tela */
-#planos::after {
-    content: "";
-    display: block;
-    clear: both;
 }
