@@ -22,3 +22,12 @@
 
     background-color: #ccc;
 }
+
+.layout-rodape {
+    padding: 40px 0;
+
+    background-color: #444;
+
+    color: #fff;
+    text-align: center;
+}
