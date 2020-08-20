@@ -1,0 +1,53 @@
+/* Base css */
+body {
+    margin: 0;
+    font-size: 32px;
+    background-color: wheat;
+}
+
+.caixa1 {
+    position: relative;
+    top: 100px;
+    left: 150px;
+
+    width: 300px;
+    height: 300px;
+
+    background-color: tomato;
+}
+
+.caixa2 {
+    /* fará o posicionamento relativo ao elemento pai */
+    position: relative;
+    top: 30px;
+    left: 100px;
+
+    width: 150px;
+    height: 150px;
+
+    background-color: blue;
+}
+
+.caixa3 {
+    position: relative;
+
+    width: 300px;
+    height: 300px;
+
+    background-color: navy;
+}
+
+.caixa4 {
+    /* O elemento será posicionado de forma absoluta em relação ao elemento ascendente mais próximo 
+    que tiver a propriedade position com o valor relative.
+    Se caixa3 3 não estiver com position relative aplicado, a caixa4 irá se posicionar de forma 
+    relativa a viewport*/
+    position: absolute;
+    top: 20px;
+    right: 20px;
+
+    width: 150px;
+    height: 150px;
+
+    background-color: seagreen;
+}
