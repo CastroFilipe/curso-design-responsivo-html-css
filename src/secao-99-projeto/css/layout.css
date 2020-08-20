@@ -1,8 +1,18 @@
 .layout-cabecalho {
     height: 60px;
     border-bottom: 1px solid #ccc;
+
+    background-color: #fff;
 }
-  
+
+.layout-cabecalho--fixo {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 99;
+}
+
 .layout-cabecalho img {
     margin-top: 12px;
 }
@@ -12,6 +22,7 @@
 }
 
 .layout-chamada {
+    margin-top: 60px;
     padding: 80px 0;
 
     background-color: #7ab55c;
