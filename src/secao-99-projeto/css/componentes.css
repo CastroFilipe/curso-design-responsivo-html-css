@@ -3,10 +3,28 @@
 ----------------------*/
 
 .plano {
+    position: relative;
+
     padding: 10px;
     border: 1px solid #95a4a5;
 
     font-size: 1.4rem; /* 14px */
+}
+
+.plano--mais-popular::after {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+
+    padding: 0 10px;
+
+    background-color: #c20303;
+    color: #fff;
+
+    font-size: 0.714em; /*10px. Calculado a partir dos 14px do elemento pai*/
+    line-height: 2.5;
+
+    content: "MAIS POPULAR";
 }
   
 .plano__cabecalho {
