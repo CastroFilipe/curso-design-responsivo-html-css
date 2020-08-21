@@ -11,7 +11,7 @@ Repositório contendo o código desenvolvido no acompanhamento das aulas do curs
 **Link para o curso**: [Clique aqui](https://www.algaworks.com/curso/web-design-responsivo-html5-css3-bem/)
 
 ### Minhas considerações:  ![Nota](https://img.shields.io/badge/Nota-3.5%2F5-green)
->  *O curso apresenta, de maneira introdutória, as principais tecnologias para o desenvolvimento de páginas HTML responsivas.  
+>  *O curso apresenta, de maneira introdutória, as principais tecnologias para o desenvolvimento de páginas HTML responsivas. 
 O conteúdo foi abordado de forma a facilitar o entendimento por pessoas leigas no assunto e, devido a grande quantidade de aulas e da duração das mesmas, 
 ajudam a aprimorar e criar uma base sólida de conhecimento para o desenvolvimento front-end.*  
 
