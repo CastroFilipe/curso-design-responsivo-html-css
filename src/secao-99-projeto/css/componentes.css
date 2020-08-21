@@ -192,3 +192,37 @@
         font-size: 2.8rem;
     }
 }
+
+/*----------------------
+    BLOCK: NAVEGACAO
+----------------------*/
+
+.navegacao {
+
+}
+
+.navegacao__menu {
+    float: right;
+}
+
+/*----------------------
+    BLOCK: MENU-TOGGLE
+----------------------*/
+
+.menu-toggle {
+    width: 24px;
+    height: 24px;
+
+    border: none;
+
+    background: none;
+    background-image: url("../imagens/bars.png");
+
+    outline: none;
+}
+
+@media(min-width: 749px) {
+    .menu-toggle {
+        display: none;
+    }
+}
