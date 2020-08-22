@@ -1,5 +1,5 @@
 # Curso de web design responsivo com html, css e BEM
-![Progresso](https://img.shields.io/badge/PROGRESSO-100%25-brightgreen)  
+![Progresso](https://img.shields.io/badge/PROGRESSO-100%25-brightgreen) 
 <a href="https://opensource.org/licenses/MIT" target="_blank"><img alt="GitHub license" src="https://img.shields.io/github/license/CastroFilipe/curso-design-responsivo-html-css"></a>  
 
 Repositório contendo o código desenvolvido no acompanhamento das aulas do curso “web design responsivo com HTML5, CSS3 e BEM” da plataforma de ensino Algaworks. O curso ensina, a partir do zero, o processo de criação de páginas web responsivas com a técnica denominada BEM, que possibilita a geração de código escalável.
