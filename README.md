@@ -1,4 +1,5 @@
-# Curso de web design responsivo com html, css e BEM
+# Curso de web design responsivo com html, css e BEM 
+![Status concluído](https://img.shields.io/badge/STATUS-CONCLUÍDO-05a505?style=flat) 
 ![Progresso](https://img.shields.io/badge/PROGRESSO-100%25-brightgreen) 
 <a href="https://opensource.org/licenses/MIT" target="_blank"><img alt="GitHub license" src="https://img.shields.io/github/license/CastroFilipe/curso-design-responsivo-html-css"></a>  
 
@@ -18,7 +19,8 @@ Repositório contendo o código desenvolvido no acompanhamento das aulas do curs
 - **Duração Total**: 13 horas de vídeo  
 - **Carga Horária**: 36 horas  
 - **Principais tópicos abordados**: CSS3, HTML5, Bootstrap, Design responsivo, Metodologia BEM  
-- **Progresso**: :heavy_check_mark: 100%. Concluído em 21 ago 2020. [Certificado de conclusão](https://www.algaworks.com/certs/OHLEVZ8BAS/)  
+- **Progresso**: 100%  
+- **Status**: :heavy_check_mark: Concluído em 21 ago 2020. [Certificado de conclusão](https://www.algaworks.com/certs/OHLEVZ8BAS/)  
 - **Link para o curso**: [Clique aqui](https://www.algaworks.com/curso/web-design-responsivo-html5-css3-bem/)
 
 ### Minhas considerações: ![Nota](https://img.shields.io/badge/NOTA-3.5%2F5-green)  
